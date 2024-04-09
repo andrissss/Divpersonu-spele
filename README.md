@@ -1,3 +1,7 @@
+Spēles sākumā spēles programmatūra gadījuma ceļā saģenerē 5 skaitļus diapazonā no 40000 līdz 50000, bet tādus, kas sākotnēji dalās ar 3, 4 un 5. Cilvēks-spēlētājs izvēlas, ar kuru no saģenerētajiem skaitļiem viņš vēlas sākt spēli. 
+
+Spēles sākumā ir dots cilvēka-spēlētāja izvēlētais skaitlis. Kopīgs punktu skaits ir vienāds ar 0 (punkti netiek skaitīti katram spēlētājam atsevišķi). Turklāt spēlē tiek izmantota spēles banka, kura sākotnēji ir vienāda ar 0. Spēlētāji izdara gājienus pēc kārtas, katrā gājienā dalot pašreizējā brīdī esošu skaitli ar 3,4 vai 5. Skaitli ir iespējams sadalīt tikai tajā gadījumā, ja rezultātā veidojas vesels skaitlis.  Ja dalīšanas rezultātā veidojas pāra skaitlis, tad kopīgajam punktu skaitam tiek pieskaitīts 1 punkts, ja nepāra skaitlis, tad no kopīgā punktu skaita tiek atņemts viens punkts. Savukārt, ja tiek iegūts skaitlis, kas beidzas ar 0 vai 5, tad bankai tiek pieskaitīts 1 punkts. Spēle beidzas, kad iegūto skaitli vairs nav iespējams sadalīt. Ja kopīgais punktu skaits ir pāra skaitlis, tad no tā atņem bankā uzkrātos punktus. Ja tas ir nepāra skaitlis, tad tam pieskaita bankā uzkrātos punktus. Ja kopīgā punktu skaita gala vērtība ir pāra skaitlis, uzvar spēlētājs, kas uzsāka spēli. Ja nepāra skaitlis, tad otrais spēlētājs. 
+
 ![image](https://github.com/andrissss/Divpersonu-spele/assets/138854208/518138b0-b167-4e49-8feb-31f9b06d2d12)
 
 ![image](https://github.com/andrissss/Divpersonu-spele/assets/138854208/dabb2e86-fd94-49cd-a3d6-16c994b1e476)
